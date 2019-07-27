@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+	<meta charset="UTF-8">
+	<title>Основы системы счисления</title>
+	<link rel="stylesheet" href="style/style.css">
+</head>
+<body>
+	<header class="main-header" id="top">
+		<section class="page-title-container">
+			<h1 class="page-title">Основы системы счисления</h1>
+		</section>
+		<div class="ilus"></div>
+	</header>
+	<main>
+		<nav>
+			<h2>Навигация</h2>
+			<ul class="main-nav">
+				<li>
+					<a href="#1" class="nav-item">1. Типы СС</a>
+				</li>
+				<li>
+					<a href="#2" class="nav-item">2. Алфавит СС</a>
+				</li>
+				<li>
+					<a href="#3" class="nav-item">3. Развёрнутая форма записи числа</a>
+				</li>
+				<li>
+					<a href="#4" class="nav-item">4. Перевод из десятичной СС в двоичную столбиком</a>
+				</li>
+				<li>
+					<a href="#5" class="nav-item">5. Правила быстрого перевода</a>
+				</li>
+			</ul>
+		</nav>
+		<section class="container">
+			<article>
+				<h2 id="1">Типы СС</h2>
+					<ul>
+						<li>Непозиционные СС - это СС в которых значение числа не зависит от положения цифры в записи числа.</li>
+						<li>Позиционные СС - это СС в которых значение числа зависит от положения цифры в записи числа.</li>
+					</ol>
+			</article>
+			<div class="razd"></div>
+			<article>
+				<h2 id="2">Алфавит СС</h2>
+				<p>Алфавит СС - это набор символов(цифр) для обозначения числа. Он обозначается английской N.</p>
+			</article>
+			<div class="razd"></div>
+			<article>
+				<h2 id="3">Развёрнутая форма записи числа</h2>
+				<p>Развёрнутая форма записи числа - это запись числа в виде суммы разрадов.</p>
+				<p>
+					<strong>Общая формула:</strong> <br>
+					<span class="formula centerf">
+					 a<sub>m-1</sub> a<sub>m-2</sub> a<sub>m-3</sub> ... a<sub>2</sub> a<sub>1</sub> a<sub>0</sub></span>
+				</p>
+				<span class="ravno"><b>=</b></span>
+				<p>
+					<span class="formula">
+						a<sub>m-1</sub> * n<sup>m-1</sup> + a<sub>m-2</sub> * n<sup>m-2</sup> ... a<sub>2</sub> + n<sup>2</sup> + a<sub>1</sub> + n	<sup>1</sup>
+					</span>
+				</p>
+				<p>где a<sub>m</sub>, a<sub>m-1</sub>, ... - цифры числа, n - основание СС, m - колличество разрядов числа.</p>
+			</article>
+			<div class="razd"></div>
+			<article>
+				<h2 id="4">Перевод из десятичной СС в двоичную столбиком</h2>
+				<p>Перевёдем число 35</p>
+				<img src="img/stolbik.png">
+				<p>Переписать остаток с конца</p>
+				<span>100011<sub>2</sub></span>
+			</article>
+			<div class="razd"></div>
+			<article>
+				<h2 id="5">Правила быстрого перевода</h2>
+				<div class="speed"></div>
+				<p>Правила быстрого перевода допустимо использовать тогда, когда планируется осуществить перевод внутри родственных СС. Родственные СС - это СС которые можно представить в виде степени одного числа. Для этого удобно использовать триады и тетрады.</p>
+				<p><strong>Таблица триад и тетрад</strong></p>
+				<img src="img/table.jpg">
+				<p>Для перевода восьмиричного числа в двоичное можно каждую цифру этого числа заменить двоичной триадой по таблице.</p>
+				<span><strong>Перевод двоичного числа в восьмиричное:</strong></span>
+				<ol>
+					<li>1. Разделить целую часть числа на триады справа налево</li>
+					<li>2. Недостающие до триады позиции заполнить незначащими нулями</li>
+					<li>3. Заменить каждую триаду двоичных чисел соответствующей восьмиричной цифрой по таблице</li>
+				</ol>
+				<p>Также можно сделать и с шестнацатиричной СС, только выделять тетрадами.</p>
+			</article>
+		</section>
+	</main>
+	<a href="#top" class="top">Наверх</a>
+	<footer>
+		<p>
+			Создано Анцуповым Павлом <br>
+			<a href="https://vk.com/xolog132002" class="vk">Мой вк</a>
+		</p>
+		<span class="five"><small>Я старался, поставьте 5 плз)</small></span>
+	</footer>
+</body>
+</html>

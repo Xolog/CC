@@ -85,11 +85,12 @@ li {
 }
 
 .formula {
-	margin-left: 25%;
+	margin-left: 16%;
+	font-size: 25px;	
 }
 
 .centerf {
-	margin-left: 35%;
+	margin-left: 30%;
 }
 
 .top {
@@ -132,4 +133,8 @@ footer p {
 	width: 960px;
 	height: 514px;
 	margin-left: -160px; 
+}
+
+article {
+	margin: 50px 0;
 }

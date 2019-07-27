@@ -18,10 +18,11 @@ body {
 }
 
 .page-title-container {
-	width: 100%;
+	width: 60%;
 	max-width: 1000px;
 	margin: 0 auto;
 	padding: 35px 0;
+	margin-left: 30%;
 }
 
 .page-title {

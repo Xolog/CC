@@ -80,19 +80,19 @@ li {
 	background: url(../img/razd.png) no-repeat;
 }
 
-.ravno,
-.formula {
+.ravno {
 	display: inline-block;
-	margin-left: 50%;
+	margin-left: 300px;
 }
 
 .formula {
-	margin-left: 16%;
-	font-size: 25px;	
+	margin-left: 100px;
+	font-size: 25px;
+	display: inline-block	
 }
 
 .centerf {
-	margin-left: 30%;
+	margin-left: 180px;
 }
 
 .top {

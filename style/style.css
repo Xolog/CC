@@ -78,6 +78,7 @@ li {
 	width: 640px;
 	height: 74px;
 	background: url(../img/razd.png) no-repeat;
+	margin-left: 15px;
 }
 
 .ravno {
@@ -182,4 +183,29 @@ nav {
 
 nav > h2 {
 	text-decoration: none;
+}
+
+table,
+th,
+td {
+	border: 1px solid black;
+	border-collapse: collapse;
+}
+
+th,
+td {
+	text-align: center;
+	color: white;
+}
+
+.table-ss {
+	width: 150px;
+}
+
+tr {
+	background-color: rgb(185, 177, 141);
+}
+
+th {
+	background-color: rgb(130, 121, 82);
 }

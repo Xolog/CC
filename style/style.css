@@ -53,6 +53,7 @@ main {
 
 h2 {
 	font-size: 28px;
+	margin-bottom: 40px;
 }
 
 .nav-item {
@@ -160,4 +161,20 @@ article {
 	width: 700px;
 	margin-left: 500px;
 	margin-top: 75px;
+}
+
+nav {
+	margin-bottom: 100px;
+}
+
+.type-cc {
+	margin-left: 40px;
+}
+
+.alpab {
+	margin-left: 25%;
+}
+
+.unfolded {
+	margin-left: 4.5%;
 }
